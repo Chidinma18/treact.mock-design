@@ -738,7 +738,4 @@ background:linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100
 }*/
 
 .pb-2 {
-background:linear-gradient(115deg, orchid 0%, rgb(254, 178, 178) 100%);
-}
-
-/* */
+background:linear-gradient(115deg, orchid 0%,
