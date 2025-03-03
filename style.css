@@ -88,10 +88,9 @@ nav {
 }
 
 .nav__logo {
-    
     font-size: 25px;
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
 
 }
@@ -484,6 +483,7 @@ nav {
 
 .values__left {
     display: flex;
+    justify-content: center;
     width: 50%;
 }
 
@@ -645,6 +645,10 @@ nav {
 
 }
 
+/* .price-height {
+    height: 300px;
+} */
+
 
 .price--title {
     font-size: 22px;
@@ -653,7 +657,7 @@ nav {
 }
 
 .price {
-    font-size: 45px;
+    font-size: 40px;
     font-weight: bold;
 }
 
@@ -876,8 +880,8 @@ background:linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100
 .test__arrows {
     display: flex;
     scale: 2.1;
-    padding: 10px;
-    margin: 10px;
+    padding: 1px;
+    margin: 1px;
 
 }
 
@@ -885,7 +889,7 @@ background:linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100
 .fa-arrow {
     font-size: 7px;
     border-radius: 50px;
-    padding: 5px 6px;
+    padding: 5px;
     margin: 5px;
     background-color: rgb(241, 241, 241);
     color: rgb(136, 67, 134);
@@ -1090,7 +1094,6 @@ background:linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100
         padding: 10px;
         margin: 10px;
     }
-    
     .v-img {
         width: 40%;
         margin-left: 10px;
@@ -1117,7 +1120,22 @@ background:linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100
     
 }
 
+@media (max-width: 900px) {
+.price-height {
+    height: 300px;
+}
+}
 
-
+@media (max-width:780px) {
+    
+}
+@media (max-width:580px) {
+    .test__arrows {
+        display: block;
+    }
+    .price-height {
+        height: 426px;
+    }
+}
 
 /*  */
