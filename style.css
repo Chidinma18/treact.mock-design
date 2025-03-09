@@ -332,7 +332,7 @@ nav {
     font-weight: bold;
     margin-bottom: 16px;
     text-align: center;
-    letter-spacing: 0.11em;
+    letter-spacing: 0.1em;
     padding-left: 10px;
 }
 
@@ -342,7 +342,7 @@ nav {
     font-size: 49px;
     margin: 40px 0;
     text-align: center;
-    letter-spacing: .15em;
+    letter-spacing: .1em;
 }
 
 .quality__para {
@@ -1012,14 +1012,14 @@ background:linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100
     display: flex;
     justify-content: center;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 10px;
     margin: 10px;
 }
 
 .footer__logo {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
 }
 
@@ -1029,10 +1029,9 @@ background:linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100
 }
 
 .footer__disclaimer {
-    font-size: 18px;
+    font-size: 12px;
     font-weight: 500;
     color: white;
-
 }
 
 
@@ -1055,7 +1054,6 @@ background:linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100
     .logo {
         width: 12%
     }
-
     .nav__Treact {
         font-size: 19px;
     }
@@ -1104,9 +1102,6 @@ background:linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100
     .footer__Treact {
         font-size: 20px;
     }
-    .footer__disclaimer {
-        font-size: 15px;
-    }
     .footer__social {
         font-size: 14px;
     }
@@ -1117,17 +1112,55 @@ background:linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100
         border-radius: 20px;
         background-color: aliceblue;
     }
-    
+    .test__arrows {
+        display: block;
+    }
 }
 
 @media (max-width: 900px) {
 .price-height {
     height: 300px;
 }
+.quality__img{
+    justify-content: center;
+    align-items: center;
+}
+.gs__img--wrapper{
+    margin-right: 5px;
+}
+.gs__img{
+    padding: 10px;
+}
+.test__arrows {
+    display: block;
+}
 }
 
 @media (max-width:780px) {
-    
+    .quality__img {
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+        margin: 5px;
+    }
+    .test__arrows {
+        display: block;
+    }
+    .test--img-2 {
+        padding: 5px;
+    }
+    .nav__link {
+        font-size: 14px;
+    }
+    .wait {
+        padding-left: 20px;
+    }
+    .margin_h2 {
+        margin: 5px;
+    }
+    .margin_price {
+        margin: 5px;
+    }
 }
 @media (max-width:580px) {
     .test__arrows {
@@ -1135,6 +1168,27 @@ background:linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100
     }
     .price-height {
         height: 426px;
+    }
+    .customizable {
+        font-size: 18px;
+    }
+    .service__subtitle {
+        font-size: 16px;
+    }
+    .support {
+        padding: 0px 15px;
+    }
+    .quality__header {
+        font-size: 40px;
+    }
+    .quality__img {
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+        margin: 5px;
+    }
+    .nav__go {
+        display: none;
     }
 }
 
